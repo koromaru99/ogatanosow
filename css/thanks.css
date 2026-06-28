@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* ====================================
+
+    ▼ ブレイクポイントのルール ▼
+    - スマホを基本設計にする
+    - デバイスによって変えるのではなくサイズによって変える
+
+==================================== */
+
+
+/* *****************************************************************************
+
+  thanks-new
+
+***************************************************************************** */
+
+.flow {
+  height: auto;
+  padding: 32px 0;
+  position: relative;
+  width: 100%;
+  background-color: #EDEEF4;
+}
+
+.flow-imgbox {
+  max-width: 500px;
+  padding: 0 16px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.imgbox-img {
+  padding: 12px 0;
+}
+
+.flow-btn {
+  color: #fff;
+  background-color: #FD4A88;
+  position: absolute;
+  top: 532px;
+  left: 110px;
+  padding: 16px;
+  font-size: 15px;
+  border-radius: 40px;
+  box-shadow: 0px 10px 20px rgb(253 74 136 / 50%);
+}
+.flow-btn:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+
+@media only screen and (min-width: 769px) {
+  .flow-btn {
+    top: 702px;
+    left: 157px;
+    font-size: 18px;
+    padding: 24px;
+  }
+}
